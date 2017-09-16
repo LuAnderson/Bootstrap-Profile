@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Lima Lucas - Profile with Bootstrap</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2>
+            Anderson Lima
+        </h2>
+        <img class="img-responsive" src="img/wallpaper.png" alt="">
+
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Resume</a>
+                    </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="panel-body">
+                        <p>Profession: Front End Developer </p>
+                        <p>University graduate: Computer Engineering</p>
+                        <p>Age: 21</p>
+                        <p>Live in Rio de Janeiro</p>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingTwo">
+                    <h4 class="panel-title">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">Knowledge</a>
+                    </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingTwo">
+                    <div class="panel-body">
+                        <h5>Front End:</h5>
+                        <ul>
+                            <li>HTML 5</li>
+                            <li>CSS 3</li>
+                            <li>JS</li>
+                            <li>AngularJS</li>
+                            <li>SASS</li>
+                            <li>BOOTSTRAP</li>
+                        </ul>
+                        <h5>Back End:</h5>
+                        <ul>
+                            <li>JAVA</li>
+                            <li>C</li>
+                            <li>PYTHON</li>
+                        </ul>
+                        <h5>Others</h5>
+                        <ul>
+                            <li>SCRUM</li>
+                            <li>GIT</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
